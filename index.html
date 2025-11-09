@@ -3,43 +3,99 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Project: Landing Page</title>
+    <title>Project:Landing Page</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="topsec">
-        <div id="header">
-            <header>
-                <img src="imgs/logo.png" alt="Logo" id="logo">
-                <nav>
-                    <a href="https://via.placeholder.com/150" id="hlink1">header link one</a>
-                    <a href="https://via.placeholder.com/150" id="hlink2">header link two</a>
-                    <a href="https://via.placeholder.com/150" id="hlink3">header link three</a>
-                </nav>    
-            </header>
-        <div id="headercontent">
-            <p>This website is awesome This website has some subtext that goes here under the main title. It's a smaller font and the color is lower contrast</p>
-            <button>Sign up</button>
-        </div>
-        <div id="top_img">
-            <img src="https://via.placeholder.com/150" alt="placeholder img" id="content-header-img">
-        </div>
-    </div>    
-    </div>
     <div id="main">
-        <div class="img_sec">
+        <div class="headercls">
+        <header>
+            <div class="Nav">
+            <div>
+             <img src="imgs/logo.png" alt="logo" id="logo">
+            </div>
+            <div>
+            <a href="google.com" class="navElem">header link one</a>
+            <a href="google.com" class="navElem">header link two</a>
+            <a href="google.com" class="navElem">header link three</a>
+            </div>    
+            
+            </div>
+            <div class="Hcont">
+                <div class="Writing">
+                <h1>My Machine Learning Journey</h1>
+                <p>     
+                    Exploring data, models, and ideas—one experiment at a time.
+                </p>
+                <button id="hSignUp">Sign Up</button> 
+                </div>
+                <div class="image_h">
+                    <img src="./imgs/hero.jpeg" alt="machine_learning">
+                </div>
 
+            </div>
+        </header>
         </div>
-        <div class="quote_sec">
+        <div class="images">
+            <h1>Machine learning Resources:</h1>
+            <div class="Icontent">
+                <div class="pyDS">
+                    <figure>
+                    <img src="./imgs/python-data-science-handbook.jpg" alt="Python Data Science Handbook">
+                    <figcaption><pre>Python 
+Data Science 
+Handbook</pre>
+                    </figcaption>
+                    </figure>
+                </div>
+                <div class="ML">
+                    <figure>
+                    <img src="./imgs/scikit_tensor.jpeg" alt="Hands on Scikit and Tensorflow">
+                    <figcaption><pre>Hands on Scikit and 
+Tensorflow</pre></figcaption>
+                    </figure>
+                </div>
+                <div class="Maths">
+                    <figure>
+                    <img src="./imgs/mathmlbook.jpg" alt="Maths for ML">
+                    <figcaption>Maths for ML</figcaption>
+                    </figure>
+                </div>
+                <div class="Deep">
+                    <figure>
+                    <img src="./imgs/400w.jpeg" alt="Deep Learning">
+                    <figcaption>Deep Learning</figcaption>
+                    </figure>
+                </div>
 
+
+            </div>
+        
         </div>
-        <div class="signup_sec">
-
+        <div class="quote">
+            <div id="quotes">
+            <pre><i>"The future of artificial intelligence is not about man versus machine, 
+but rather man with machine. 
+Together,we can achieve unimaginable heights of innovation and progress."</i>
+                                                                                               — Fei-Fei Li</pre>
+            </div>
         </div>
+        <div class="SignAction">
+            <div class="Calltoaction">
+                <div class="Qtext">
+                    <p>Do you wanna know more?</p>
+                    <p>Then click on that button right there!</p>
 
+                </div>
+                <div class="QBut">
+                    <button>Sign Up</button>
+                </div>
+            </div>
+        
+        </div>
 
     </div>
-    <footer>
-        <p>© 2025 Kailasnath R</p>
-    </footer>
+    <footer>© 2025 Kailasnath R. | Inspired by The Odin Project</footer>
+    
 </body>
 </html>
